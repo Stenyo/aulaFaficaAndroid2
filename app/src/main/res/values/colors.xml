@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="stroke">#aaaaaa</color>
+    <color name="strokeBlack">#696969</color>
+    <color name="colorIcon">#FFF</color>
+    <color name="booPrimary">#337ab7</color>
+    <color name="booSuccess">#5cb85c</color>
+    <color name="booInfo">#5bc0de</color>
+    <color name="booWarning">#f0ad4e</color>
+    <color name="booDanger">#d9534f</color>
+    <color name="gold">#cfb53b</color>
+    <color name="silver">#c2c4d4</color>
+    <color name="bronze">#8C7853</color>
+</resources>
