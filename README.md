@@ -1,4 +1,4 @@
-### **Deve conter (100% feito) ** ###
+### **Requisição em api** ###
 
 - __Lista de repositórios__. Exemplo de chamada na API: `https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1`
   * Paginação na tela de lista, com endless scroll / scroll infinito (incrementando o parâmetro `page`).
@@ -8,18 +8,16 @@
   * Cada item da lista deve exibir Nome / Foto do autor do PR, Título do PR, Data do PR e Body do PR
   * Ao tocar em um item, deve abrir no browser a página do Pull Request em questão
 
-### **A solução DEVE conter (100% feito)** ##
-* Sistema de build Gradle OK
-* Mapeamento JSON -> Objeto (uso do GSON) OK
+### **A solução de dependencias** ##
+* Sistema de build Gradle
+* Mapeamento JSON -> Objeto (uso do GSON)
 * Material Design -> Foi utilizada a bibioteca do Cardview para a listagem
 
-### **Ganha + pontos se conter (80% feito)** ###
+### **Requisitos não funcionais** ###
 
-* Framework para comunicação com API OK (utilizado o Retrofit2 juntamente com o gson)
-* Testes no projeto //estruturado com junit, porem não feito
-* Testes funcionais //não feito
-* Cache de imagens e da API OK (com.squareup.okhttp3:okhttp Cache)
-* Suportar mudanças de orientação das telas sem perder estado OK (Inclusive com scroll infinito na tela principal)
+* Framework para comunicação com API (utilizado o Retrofit2 juntamente com o gson)
+* Cache de imagens e da API (com.squareup.okhttp3:okhttp Cache)
+* Suportar mudanças de orientação das telas sem perder estado (Inclusive com scroll infinito na tela principal)
 
 ### **EXTRAS** ###
  
